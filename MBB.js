@@ -10,7 +10,7 @@ function addTextToImage(){
     ctx.font = 'bold 30px Arial';
     ctx.fillStyle = 'black';
     ctx.fillText(text, 210 - (text.length * 30), 95);
-    var dataUrl = canvas.toDataURL('image1/png');
+    var dataUrl = canvas.toDataURL('image1.png');
     img.src = dataUrl;
 
 
@@ -24,7 +24,7 @@ function addTextToImage(){
     ctx.font = 'bold 30px Arial';
     ctx.fillStyle = 'black';
     ctx.fillText(text, 210 - (text.length * 30), 95);
-    var dataUrl = canvas.toDataURL('image2/png');
+    var dataUrl = canvas.toDataURL('image2.png');
     img.src = dataUrl;
 
 
@@ -38,6 +38,6 @@ function addTextToImage(){
     ctx.font = 'bold 30px Arial';
     ctx.fillStyle = 'black';
     ctx.fillText(text, 210 - (text.length * 30), 95);
-    var dataUrl = canvas.toDataURL('image3/png');
+    var dataUrl = canvas.toDataURL('image3.png');
     img.src = dataUrl;
 }
