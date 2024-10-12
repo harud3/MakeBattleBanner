@@ -9,7 +9,7 @@ function addTextToImage(){
     ctx.drawImage(img, 0, 0, img.width, img.height);
     ctx.font = '30px Arial';
     ctx.fillStyle = 'black';
-    ctx.fillText(text, 200, 150);
+    ctx.fillText(text, 150, 100);
     var dataUrl = canvas.toDataURL('image/png');
     img.src = dataUrl;
 }
