@@ -42,7 +42,7 @@ function addTextToImage(){
     img.src = dataUrl;
     ctx.clearRect(0, 0, 428, 132);
 
-    
+
     var img = document.getElementById('longimage1');
     var canvas = document.getElementById('longcanvas1');
     var ctx = canvas.getContext('2d');
@@ -51,7 +51,7 @@ function addTextToImage(){
     ctx.drawImage(img, 0, 0, img.width, img.height);
     ctx.font = 'bold 30px Arial';
     ctx.fillStyle = 'black';
-    ctx.fillText(text, 205 - (text.length * 30), 95);
+    ctx.fillText(text, 295 - (text.length * 30), 95);
     var dataUrl = canvas.toDataURL('image/png');
     img.src = dataUrl;
     ctx.clearRect(0, 0, 488, 132);
@@ -65,7 +65,7 @@ function addTextToImage(){
     ctx.drawImage(img, 0, 0, img.width, img.height);
     ctx.font = 'bold 30px Arial';
     ctx.fillStyle = 'black';
-    ctx.fillText(text, 205 - (text.length * 30), 95);
+    ctx.fillText(text, 295 - (text.length * 30), 95);
     var dataUrl = canvas.toDataURL('image/png');
     img.src = dataUrl;
     ctx.clearRect(0, 0, 488, 132);
@@ -79,7 +79,7 @@ function addTextToImage(){
     ctx.drawImage(img, 0, 0, img.width, img.height);
     ctx.font = 'bold 30px Arial';
     ctx.fillStyle = 'black';
-    ctx.fillText(text, 205 - (text.length * 30), 95);
+    ctx.fillText(text, 295 - (text.length * 30), 95);
     var dataUrl = canvas.toDataURL('image/png');
     img.src = dataUrl;
     ctx.clearRect(0, 0, 488, 132);
